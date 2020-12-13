@@ -106,3 +106,47 @@ SyntaxError: invalid syntax
 >>> sorted([4,6,2,8,0,1])
 [0, 1, 2, 4, 6, 8]
 >>>
+
+
+Python 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> def my_function():
+...     print('dnksjan')
+...     print('sdjjdsa')
+...
+>>> my_function()
+dnksjan
+sdjjdsa
+>>>
+>>> def my_function(str1, str2):
+...     print(str1)
+...     print(str2)
+...
+>>> my_function('this is the first string', 'this is the second string')
+this is the first string
+this is the second string
+>>> def my_function(str1, str2):
+...     print(str1)
+...     print(str2)
+...
+>>> my_function('this is the first string','this is the second string')
+this is the first string
+this is the second string
+>>> my function('gaga','baba')
+  File "<stdin>", line 1
+    my function('gaga','baba')
+       ^
+SyntaxError: invalid syntax
+>>>
+>>> def print_something(name, age):
+...     print('my name is' + name + 'and my age is' + str(age))
+...
+>>> print_something('nick', 27)
+my name isnickand my age is27
+>>>
+>>> def print_something(name='someone', age='unknown'):
+...     print('my name is' +name + ' and my age is  '+age)
+...
+>>> print_something()
+my name issomeone and my age is  unknown
+>>>
