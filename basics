@@ -1,0 +1,108 @@
+Python 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 5
+5
+>>> 5+5
+10
+>>> int('5') + int('4')
+9
+>>> print('wassup')
+wassup
+>>> 5 == 5
+True
+>>> 5 is not 5
+<stdin>:1: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+False
+>>> 5 is 5
+<stdin>:1: SyntaxWarning: "is" with a literal. Did you mean "=="?
+True
+>>> true is str('true')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'true' is not defined
+>>> true is str(true)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'true' is not defined
+>>> ['movies', 'games', 'python'][1]
+'games'
+>>> 'i like'+['movies','games'][1]
+'i likegames'
+>>> print('i like'+['movies','games'][1]
+...
+...
+... print('i like'+['movies','games'][1])
+  File "<stdin>", line 4
+    print('i like'+['movies','games'][1])
+    ^
+SyntaxError: invalid syntax
+>>> print('i like') +['oejfp','diosn'] [0]
+i like
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+>>> print('i like'+ ['ndmskal','jdpfil'] [0])
+i likendmskal
+>>> {'name':'nick', 'age': 27 ,'hobby':'football'}['name']
+'nick'
+>>> greeting='hello world'
+>>> print
+<built-in function print>
+>>> print(greeting)
+hello world
+>>> greeting= greeting.split(' ')[0]
+>>> print(greeting)
+hello
+>>> print(greeting + 'nick)
+  File "<stdin>", line 1
+    print(greeting + 'nick)
+                           ^
+SyntaxError: EOL while scanning string literal
+>>> print(greeting + 'nick')
+hellonick
+>>> print(greeting + ' nick')
+hello nick
+>>> number = 1
+>>> secondno=3
+>>> print(number * second number)
+  File "<stdin>", line 1
+    print(number * second number)
+                          ^
+SyntaxError: invalid syntax
+>>> print(number * secondno)
+3
+>>> int(5.6(
+... int(5.6)
+... float(5.6)
+  File "<stdin>", line 3
+    float(5.6)
+    ^
+SyntaxError: invalid syntax
+>>> int('5.6')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: '5.6'
+>>> float('5.6)
+  File "<stdin>", line 1
+    float('5.6)
+               ^
+SyntaxError: EOL while scanning string literal
+>>> float('5.6')
+5.6
+>>> len('hello')
+5
+>>> len() uzunluk olcer
+  File "<stdin>", line 1
+    len() uzunluk olcer
+          ^
+SyntaxError: invalid syntax
+>>> len([1, 2, 3, 4, 5])
+5
+>>> arrayin uzunlugunu buldu
+  File "<stdin>", line 1
+    arrayin uzunlugunu buldu
+            ^
+SyntaxError: invalid syntax
+>>> sorted([4,6,2,8,0,1])
+[0, 1, 2, 4, 6, 8]
+>>>
